@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <h1>Tic Tac Toe</h1>
     <main>
-      <div class="game-head"></div>
+      <h1 class="game-head">Tic Tac Toe</h1>
       <div class="game-box">
+        <h2 id="gameAnnouncer" style="display: none">Player Moves First</h2>
+        <div class="start-button">
+          <button type="button" id="gameButton">Start</button>
+        </div>
         <table>
-            <thead></thead>
-            <tbody></tbody>
+          <tbody id="gameTableBody"></tbody>
         </table>
       </div>
     </main>
